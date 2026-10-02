@@ -1,6 +1,8 @@
 {
     "admin": {
-        "password": "password123",
-        "role": "admin"
+        "p": "password123",
+        "disk": 1000,
+        "memory": "512MB",
+        "status": "active"
     }
 }
