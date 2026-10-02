@@ -48,8 +48,7 @@ def load_users():
             return decoded_data
     except Exception as e:
         print(f"⚠️ GitHub Load Error: {e}")
-        
-         return {"admin": {"p": "password123", "disk": 1000, "memory": "512MB", "status": "active"}}
+        return {"admin": {"p": "password123", "disk": 1000, "memory": "512MB", "status": "active"}}
     
 
 # --- লগইন রুট (Fixed) ---
